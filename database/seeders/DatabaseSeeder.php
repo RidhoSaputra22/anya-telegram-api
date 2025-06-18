@@ -30,8 +30,8 @@ class DatabaseSeeder extends Seeder
             'password' => Hash::make('admin'),
         ]);
 
-        $this->call([
-            ChatSeeder::class,
-        ]);
+        // $this->call([
+        //     ChatSeeder::class,
+        // ]);
     }
 }
